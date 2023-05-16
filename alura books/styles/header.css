@@ -40,7 +40,7 @@
 }
 
 .container__botao:checked~.lista-menu {
-    display: none;
+    display: block;
 }
 
 .lista-menu__titulo,
@@ -88,6 +88,10 @@
         display: none;
    }
 
+   .container__botao:checked~.lista-menu {
+    display: none;
+}
+
    .container__titulo {
         font-weight: 400;
         display: block;
@@ -112,7 +116,7 @@
    }
 
    .container__imagem-transparente {
-        display: none;
+        display: flex;
     }
 
     .cabeçalho__menu-hamburguer {
